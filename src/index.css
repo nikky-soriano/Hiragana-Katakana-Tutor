@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+	user-select: none;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+#adamstinky{
+	all:unset;
+	width: 100% !important;
+	display: inline !important;
+	height:500px !important;
+}
+#test{
+	float: inline-end;
+}
+#stink{
+	padding: 15px;
+	margin-top:3px;
+	
+}
+#stink2{
+	text-align: center;
+	font-Family: "American Typewriter, serif";
+	font-size: 50px;
+}
+#stink3{
+	margin-top: 20px;
+}
+body {
+	background: rgb(128,207,169);
+	background: linear-gradient(0deg, rgba(128,207,169,1) 0%, rgba(71,154,106,1) 100%);
+	margin: auto;
+	align-items: flex-start;
+	font-family: Impact;
+	width: 30%; 
+	overflow: auto;
+}
+.bossHealth {
+	margin-bottom: 7%;
+	/* margin-top: 5px; */
+	width: 90%;
+	margin-left: 5%;
+}
+
+#playerText {
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+#bossText {
+	font-family: Impact;
+	color: white;
+	/* -webkit-text-stroke: 1.5px black; */
+	margin-bottom: 1%;
+	margin-top: 1%;
+	font-size: 250%;
+	text-align: center;
+	font-weight: light;
+	
+} 
+
+#streak{
+	text-align: center;
+	display: inline;
+	font-weight: light;
+	color: white;
+	font-Family: "Papyrus";
+	font-size: 180%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+#study{
+	float: right;
+}
+
+#bottomLine {
+	margin-bottom: 1%;
+}
+.sweet-alert {
+	width: 500px;
+	margin-left: -250px;
+}
+
+img {
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+#app {
+	animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
